@@ -5,7 +5,8 @@
 ## Relationships between models: Entity, Locale, Media
 #### Load performance, based on-demmand
 #### Locale Translation Tables
-###  E/R Modelling
+#### E/R Modelling
+#### Reactive interfaces
 #### NoSQL
 
 ![RelantionshipsBetweenEntityLocaleAndMediaModelsForReactiveInterfacesAndNoSqlDatabases](https://user-images.githubusercontent.com/57029303/151325242-4b81754e-3eed-4346-b7b1-fc89b770059c.png)
