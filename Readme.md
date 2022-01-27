@@ -1,10 +1,10 @@
-### First commit
 
 # Learning Database Schemas
 
 ## Relationships between models: Entity, Locale, Media
-#### Load performance, based on-demmand
-#### Locale Translation Tables
+##### Topics:
+#### Load performance, on demmand
+#### Locale Translation Tables, i18n, i18next, node, npm
 #### E/R Modelling
 #### Reactive interfaces
 #### NoSQL
