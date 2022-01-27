@@ -2,9 +2,10 @@
 
 # Learning Database Schemas
 
-## Relationships between models
-#### Load performance
-#### Locale Tables
+## Relationships between models: Entity, Locale, Media
+#### Load performance, based on-demmand
+#### Locale Translation Tables
+###  E/R Modelling
 #### NoSQL
 
 ![RelantionshipsBetweenEntityLocaleAndMediaModelsForReactiveInterfacesAndNoSqlDatabases](https://user-images.githubusercontent.com/57029303/151325242-4b81754e-3eed-4346-b7b1-fc89b770059c.png)
