@@ -18,6 +18,8 @@ The aim of this schema is to increase freedom on select language different to pr
 
 ***
 ***
+### Entity
+
 At level of dessigning models in the DB, we could draw some preview like the one below, 
 wich uses references to fields in other tables ( 'Locales.id' and 'Locales.code', 'Media.video.id', 'Media.link', arrays from fields, etc.)
 That object allows to perform lightweight lists, wich could load default translations, or on demmand translations, also in case of having other docs attached.
@@ -48,5 +50,11 @@ That schema is 100% independant from system or browser settings, such as i18n.la
     }
 }
 ```
-*Note that 'ref' should be '$ref' fields in case of use MogoDB with foreign keys*
+*Note that 'ref' should be '$ref' fields in case of use MongoDB with foreign keys*
+
+### Locales
+Coming soon...
+### Media 
+Coming soon...
  ***
+ 
