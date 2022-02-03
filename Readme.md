@@ -53,6 +53,9 @@ That schema is 100% independant from system or browser settings, such as i18n.la
 *Note that 'ref' should be '$ref' fields in case of use MongoDB with foreign keys*
 
 ### Locales
+#### Labels
+There is the perfect object to be managed from i18n. Why? Because all Labels, usually are shared in every point and page of our app, all they are common terms that we need, also are terms needed in the translation.json objects (i18n),  to fill labels such as 'title', 'description' and so, in many cases, more than single translations. Then, we need to have a dictionary easy to access to easily translate our labels. In much cases we'll need just a couple of languages to load in the browser (app native and locale settings).
+#### Values
 Coming soon...
 ### Media 
 Coming soon...
