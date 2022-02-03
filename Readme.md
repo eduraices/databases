@@ -18,13 +18,14 @@ The aim of this schema is to increase freedom on select language different to pr
 
 ***
 ## Dessigning DB objects
-***
+
 ### Entity
 
 At level of dessigning models in the DB, we could draw some preview like the one below, 
 wich uses references to fields in other tables ( 'Locales.id' and 'Locales.code', 'Media.video.id', 'Media.link', arrays from fields, etc.)
 That object allows to perform lightweight lists, wich could load default translations, or on demmand translations, also in case of having other docs attached.
 That schema is 100% independant from system or browser settings, such as i18n.lang.
+
 ```
 {
     _id: ObjectId("61f217c7ad3a10b4940abe7b"),
@@ -52,8 +53,8 @@ That schema is 100% independant from system or browser settings, such as i18n.la
 }
 ```
 *Note that 'ref' should be '$ref' fields in case of use MongoDB with foreign keys*
-### Locales
 ***
+### Locales
 #### Labels
 There is the perfect object to be managed from i18n. Why? Because all Labels, usually are shared in every point and page of our app, all they are common terms that we need, also are terms needed in the translation.json objects (i18n),  to fill labels such as 'title', 'description' and so, in many cases, more than single translations. Then, we need to have a dictionary easy to access to easily translate our labels. We'll need just a couple of languages to load in the browser (app native and locale settings), but  other languages will lay  available  from a separated server request. I put below one example of how could be a translate.json to store all labels.
 ```
@@ -83,6 +84,7 @@ There is the perfect object to be managed from i18n. Why? Because all Labels, us
         }
    }
 ```
+***
 
 #### Values
 Coming soon...
