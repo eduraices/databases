@@ -56,7 +56,7 @@ That schema is 100% independant from system or browser settings, such as i18n.la
 ***
 ### Locales
 #### Labels
-There is the perfect object to be managed from i18n. Why? Because all Labels, usually are shared in every point and page of our app, all they are common terms that we need, also are terms needed in the translation.json objects (i18n),  to fill labels such as 'title', 'description' and so, in many cases, more than single translations. Then, we need to have a dictionary easy to access to easily translate our labels. We'll need just a couple of languages to load in the browser (app native and locale settings), but  other languages will lay  available  from a separated server request. I put below one example of how could be a translate.json to store all labels.
+There is the perfect object to be managed from i18n. Why? Because all Labels, usually are shared in every point and page of our app, all they are common terms that we need, also are terms needed in the translation.json objects (i18n),  to fill labels such as 'title', 'description' and so, in many cases, more than single translations. Then, we need to have a dictionary easy to access to easily translate our labels. We'll need just a couple of languages to load in the browser (app native and locale settings), but  other languages will lay  available  from a separated server request. I put below one example of how could be a namespace for './locales/es/translate.json' file, to store all labels.
 ```
 {
     "geo": {
@@ -87,7 +87,24 @@ There is the perfect object to be managed from i18n. Why? Because all Labels, us
 ***
 
 #### Values
-Coming soon...
+
+There is the 'Locale' model to get fields with 'internationalizable texts', so we'll add a field named 'code'
+
+```
+{
+    _id: ObjectId("61fa0925ad3a10b4940abe96"),
+    code: 'es',
+    scope: 'card',
+    author: 'DaSaddori',
+    name: 'Profile Card',: 
+    caption: 'I would like to tell you more about my life there',
+    description: 'Don´t have much more to say, just send a kiss to you and good vibes'
+  }, 
+  
+```
+***
+According the example above, we'll see that secondary data, such as 'read more...' links, could be loaded from another query, once the main list were loaded.
+
 ### Media 
 Coming soon...
  ***
