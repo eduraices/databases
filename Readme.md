@@ -97,7 +97,7 @@ name: 'Babbu E Fillu',
 ```
 
 ***
-So next we'll write our extensible translation whith same 'ref' id...
+So next we'll write our extensible translation whith same 'ref' id, and it will be stored in our 'Locale' collection...
 
 ```
 {
