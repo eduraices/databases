@@ -88,7 +88,16 @@ There is the perfect object to be managed from i18n. Why? Because all Labels, us
 
 #### Values
 
-There is the 'Locale' model to get fields with 'internationalizable texts', so we'll add a field named 'code'
+There is the 'Locale' model to get fields with 'internationalizable texts', so we'll add a field named 'code'. Don't forget that the reference to all available translations were stored in previous Entity object (
+```
+name: 'Babbu E Fillu',
+    location: { coordinates: [ '11.000', '22.000' ] },
+    locales: [
+      { ref: '61fa0925ad3a10b4940abe96', code: 'es' },
+```
+
+***
+So next we'll write our extensible translation whith same 'ref' id...
 
 ```
 {
