@@ -115,6 +115,6 @@ So next we'll write our extensible translation whith same 'ref' id, and it will 
 According the example above, we'll see that secondary data, such as 'read more...' links, could be loaded from another query, once the main list were loaded.
 
 ### Media 
-Coming soon...
+In a simmilar way, we'll need to store some useful metadata in a table apart. This table will have name fields such as: source, MIME type, date information, description, name, and so on.
  ***
  
